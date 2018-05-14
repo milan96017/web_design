@@ -1,0 +1,19 @@
+Google Fonts :
+
+Roboto Condensed:-
+
+in HTML <head>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+
+in .CSS :
+font-family: 'Roboto Condensed', sans-serif;
+
+
+Carrois Gothic SC :-
+
+in HTML <head>
+<link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet">
+
+in .CSS :
+font-family: 'Carrois Gothic SC', sans-serif;

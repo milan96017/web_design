@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact Page</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet">
+</head>
+<body>
+    <header role="banner">
+        <nav id="my-header-nav" class="navbar navbar-default" role="Navigation">
+            <div class="container">
+                <div class="navbar-header" >
+                    <a href="homepage.html" class="pull-left">
+                            <div id="logo-img" alt="logo image">
+                            
+                            </div> <!--closes logo div -->
+                        </a>
+
+                        <div class="navbar-brand" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                             <!-- to keep my name in center -->
+
+                            <a href="homepage.html"><span id="site-name">Milan Patel </span></a>
+                            <div>
+                            <p></p>     <!--just to put my name in center -->
+                            <a href="homepage.html"><span id="site-subname">Design Portfolio </span></a>
+                            </div>
+                        </div> 
+                </div>
+
+                <div id="collapsable-nav" class="collapse navbar-collapse" class="col-lg-6 col-md-6 col-sm-6 col-xs-12" >
+
+                        <ul id="nav-list" class="nav navbar-nav navbar-right"  >
+                            <li>
+                                <a href="milan_portfolio.html">
+                                    <span class="glyphicon glyphicon-question-sign"></span>
+                                    <br class="hidden-xs">Portfolio</a>
+                            </li>
+
+                            <li>
+                                <a href="new_about_me.html">
+                                    <span class="glyphicon glyphicon-picture"></span>
+                                    <br class="hidden-xs">About Me</a> 
+                            </li>
+
+                            <li>
+                                <a href="contact.html">
+                                    <span class="glyphicon glyphicon-envelope"></span>
+                                    <br class="hidden-xs">Contact</a>
+                            </li>
+                            
+                            
+                        </ul>
+                </div>
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        
+                    </button>
+
+
+            </div>
+        </nav>
+
+    </header>
+	
+
+	<main role="main">
+	<section class="jumbotron"> <!--this is my page header -->
+    <div class="container">
+	<h1>Fill the Form:</h1>
+
+	<form enctype="multipart/form-data" method="post" action="contact.php">
+
+		<fieldset>
+			<p>
+			<label>First Name:
+					<input required type="text" name="first_name" placeholder="Enter your First Name">
+			</label>
+			</p>
+
+			<p>
+			<label>Last Name:
+				<input required type="text" name="last_name" placeholder="Enter your Last Name">
+			</label>
+			</p>
+
+			<p>
+			<label>Email Id:
+				<input required type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Ex:ptlmilan52@gmail.com"> Ex:ptlmilan52@gmail.com
+			</label>
+			</p>
+
+			<p>
+			<label>City:
+			<select name="city_name">
+				<option>Select your City </option>
+				<option value="Toronto">Toronto</option>
+				<option value="Montreal">Montreal</option>
+				<option value="Vancouver">Vancouver</option>
+				<option value="Ottawa">Ottawa</option>
+			</select>
+			</label>
+			</p>
+
+			<p>
+			<label>Select Profile: <br>
+				<input type="radio" name="profile" value="Student" checked> Student <br>
+  				<input type="radio" name="profile" value="Professional"> Professional
+  			</label>
+			</p>
+
+			<p>
+			<label>Mobile Number:
+				<input type="text" name="mobile" pattern="[1-9][1-9][1-9] [0-9][0-9][0-9] [0-9][0-9][0-9][0-9]" placeholder="Ex: 437 776 6778"> Ex: 437-776-6778
+			</label>
+			</p>
+
+			<p>
+			<label>Password:
+				<input required type="password" name="pass" pattern=".{6,}" placeholder="Six or more characters">
+			</label>
+			</p>
+
+			<p>
+			<label>Upload your Profile Picture
+			<input type="file" name="image_upload"  accept="image/*">
+			</label>
+			</p>
+
+			
+
+			<input type="submit" value="Register">
+
+
+		</fieldset>
+	</form>
+</div>
+</section>
+</main>
+
+<footer id="my-footer" class="panel-footer" role="contentinfo">
+    <div class="container">
+      <div class="row">
+        
+        <section id="testimonials" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <h3>Words from my clients?</h3>
+          <p>"This is some of the best UX work I've seen"</p>
+          <p>"This UX guru did amazing work for me!"</p>
+          <p>"This IMM Grad is Awesome..!!"</p>
+        </section>
+
+        <section id="socialmedia" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            
+            <p>&nbsp;</p> <!--to keep my social media icons on center -->
+
+            <a href="https://www.instagram.com/mr.almostperfect/" target="_blank" class="pull-right" >
+                <div id="in-img" alt="instagram_link">
+                </div>
+            </a>
+
+            <a href="https://www.facebook.com/patel.milan.20" target="_blank" class="pull-right" >
+                <div id="fb-img" alt="facebook_link">
+                </div>
+            </a>
+            
+            <a href="https://www.linkedin.com/in/milan-patel-5458b47b/" target="_blank" class="pull-right" >
+                <div id="li-img" alt="linkdin_link">
+                </div>
+            </a>
+            
+            
+        
+
+        </section>
+
+
+
+        
+
+      </div> <!-- closes class row-->
+      <div class="text-center">&copy; Milan Patel Portfolio</div>
+    </div> <!-- closes class container-->
+  </footer>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
