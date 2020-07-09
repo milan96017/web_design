@@ -1,4 +1,4 @@
-# Web Design Assignment
+# Portfolio Website Design Assignment
 
 Techstack:
 HTML
