@@ -5,4 +5,4 @@ HTML
 CSS
 BOOTSTRAP
 PHP
-JS
+js
